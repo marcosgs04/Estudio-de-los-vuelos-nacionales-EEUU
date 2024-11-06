@@ -5,39 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Índice del Proyecto</title>
     <style>
+        /* Estilo general de la página */
         body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff; /* Fondo azul claro */
+            margin: 0;
+            padding: 20px;
+            text-align: center; /* Centrado del contenido */
         }
+
         h1 {
-            color: #333;
+            color: #333; /* Color oscuro para el título */
+            font-size: 2.5em; /* Título grande */
+            margin-bottom: 20px;
         }
-        ul {
-            list-style-type: none;
-            padding: 0;
+
+        /* Estilo del contenedor del índice */
+        .index-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px; /* Espaciado entre los botones */
         }
-        li {
-            margin: 10px 0;
+
+        /* Estilo de los botones */
+        .button {
+            text-decoration: none; /* Elimina el subrayado */
+            background-color: #4CAF50; /* Color de fondo verde */
+            color: white; /* Color del texto */
+            padding: 12px 24px; /* Espaciado interno (margen dentro del botón) */
+            border-radius: 8px; /* Bordes redondeados */
+            font-size: 18px; /* Tamaño de la fuente */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+            transition: background-color 0.3s ease, transform 0.2s ease; /* Transiciones suaves */
         }
-        a {
-            text-decoration: none;
-            color: #0066cc;
+
+        /* Efecto de hover (cuando el mouse pasa sobre el botón) */
+        .button:hover {
+            background-color: #45a049; /* Color de fondo más oscuro */
+            transform: translateY(-4px); /* Efecto de levantamiento del botón */
         }
-        a:hover {
-            text-decoration: underline;
+
+        /* Efecto de foco (cuando el botón es seleccionado) */
+        .button:focus {
+            outline: none;
+            box-shadow: 0 0 10px rgba(72, 199, 72, 0.6); /* Resaltado de foco */
+        }
+
+        /* Pie de página con mensaje */
+        footer {
+            margin-top: 50px;
+            font-size: 14px;
+            color: #777;
         }
     </style>
 </head>
 <body>
-    <h1>Índice del Proyecto</h1>
-    <p>Selecciona una página para navegar:</p>
-    <ul>
-        <li><a href="Anexo 2 Preparación del proyecto.html">Anexo 2 Preparación del proyecto.html</a></li>
-        <li><a href="Anexo 3 Objetivo_1.html">Anexo 3 Objetivo_1.html</a></li>
-        <li><a href="Anexo 4 Objetivo_2.html">Anexo 4 Objetivo_2.html</a></li>
-        <li><a href="Anexo 5 Objetivo_3.html">Anexo 5 Objetivo_3.html</a></li>
-        <li><a href="Anexo 6 Objetivo_4.html">Anexo 6 Objetivo_4.html</a></li>
-        <li><a href="Anexo 7 Objetivo_5.html">Anexo 7 Objetivo_5.html</a></li>
-    </ul>
+
+    <h1>Bienvenido al Índice del Proyecto</h1>
+    <div class="index-container">
+        <a href="Anexo 2 Preparación del proyecto.html" class="button">Anexo 2 Preparación del proyecto.html</a>
+        <a href="Anexo 3 Objetivo_1" class="button">Anexo 3 Objetivo_1.html</a>
+        <a href="Anexo 4 Objetivo_2." class="button">Anexo 4 Objetivo_2.html</a>
+        <a href="Anexo 5 Objetivo_3" class="button">Anexo 5 Objetivo_3.html</a>
+        <a href="Anexo 6 Objetivo_4" class="button">Anexo 6 Objetivo_4.html</a>
+        <a href="Anexo 7 Objetivo_5" class="button">Anexo 7 Objetivo_5.html</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Tu Nombre. Todos los derechos reservados.</p>
+    </footer>
+
 </body>
 </html>
+
