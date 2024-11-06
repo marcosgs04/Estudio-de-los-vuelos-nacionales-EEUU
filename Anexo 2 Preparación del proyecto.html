@@ -57,47 +57,104 @@ if (!!window.navigator.userAgent.match("MSIE 8")) {
 };
 </script>
 <style>
-    /* Tamaños de fuente para encabezados */
+    /* Reseteo de márgenes y padding global */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box; /* Asegura que el tamaño de los elementos no esté afectado por padding y border */
+    }
+
+    /* Control de la altura total de la página */
+    html, body {
+        height: 100%; /* Asegura que el cuerpo ocupe toda la altura disponible */
+        width: 100%; /* Asegura que el cuerpo ocupe toda la anchura disponible */
+        margin: 0; /* Elimina cualquier margen predeterminado */
+        padding: 0; /* Elimina cualquier relleno predeterminado */
+    }
+
+    /* Estilo general de la página */
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f0f8ff; /* Fondo azul claro */
+        display: flex;
+        justify-content: center; /* Centra el contenido horizontalmente */
+        align-items: center; /* Centra el contenido verticalmente */
+        text-align: center; /* Centra el texto */
+        min-height: 100vh; /* Asegura que el contenido siempre ocupe al menos el 100% de la pantalla */
+    }
+
     h1 {
         font-size: 34px;
-        margin-bottom: 10px; /* Reducir espacio debajo del título */
+        margin-bottom: 10px;
     }
+
     h1.title {
         font-size: 38px;
         margin-bottom: 10px;
     }
+
     h2 {
         font-size: 30px;
         margin-bottom: 8px;
     }
+
     h3 {
         font-size: 24px;
         margin-bottom: 6px;
     }
+
     h4 {
         font-size: 18px;
         margin-bottom: 4px;
     }
+
     h5 {
         font-size: 16px;
         margin-bottom: 3px;
     }
+
     h6 {
         font-size: 12px;
         margin-bottom: 2px;
     }
 
-    /* Estilo para código y preformateado */
-    code {
-        color: inherit;
-        background-color: rgba(0, 0, 0, 0.04);
+    /* Estilo de los botones */
+    .index-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
     }
-    pre:not([class]) {
-        background-color: white;
-        padding: 10px; /* Padding extra para hacer que el código se vea mejor */
-        margin-bottom: 15px; /* Reducir espacio debajo de bloques de código */
+
+    .button {
+        text-decoration: none;
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 24px;
+        border-radius: 8px;
+        font-size: 18px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .button:hover {
+        background-color: #45a049;
+        transform: translateY(-4px);
+    }
+
+    .button:focus {
+        outline: none;
+        box-shadow: 0 0 10px rgba(72, 199, 72, 0.6);
+    }
+
+    footer {
+        margin-top: 20px;
+        font-size: 14px;
+        color: #777;
     }
 </style>
+
 
 <script>/*! jQuery UI - v1.13.2 - 2022-07-14
 * http://jqueryui.com
