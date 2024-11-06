@@ -66,11 +66,18 @@ if (!!window.navigator.userAgent.match("MSIE 8")) {
 
     /* Control de la altura total de la página */
     html, body {
-        height: 100%; /* Asegura que el cuerpo ocupe toda la altura disponible */
-        width: 100%; /* Asegura que el cuerpo ocupe toda la anchura disponible */
-        margin: 0; /* Elimina cualquier margen predeterminado */
-        padding: 0; /* Elimina cualquier relleno predeterminado */
+        
+        width: 800px; /* Ancho fijo en píxeles */
+        height: 600px; /* Alto fijo en píxeles */
+        margin: 0; /* Eliminar márgenes por defecto */
+        padding: 0; /* Eliminar relleno por defecto */
+        display: flex;
+        justify-content: center; /* Centra el contenido horizontalmente */
+        align-items: center; /* Centra el contenido verticalmente */
+        text-align: center; /* Centra el texto */
+        background-color: #f0f8ff; /* Fondo azul claro */
     }
+    
 
     /* Estilo general de la página */
     body {
