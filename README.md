@@ -24,7 +24,23 @@ El proyecto Estudio de los vuelos nacionales de EE. UU. tiene como objetivo anal
 ### Utilidad del proyecto
 Este estudio es útil para los viajeros que deseen obtener información detallada sobre diversos factores que pueden influir en su experiencia de vuelo entre estados de EE. UU., como los retrasos y la distribución de aeropuertos. También puede ser de interés para aerolíneas y aeropuertos, ya que los resultados pueden ayudarles a tomar decisiones para mejorar sus operaciones y la satisfacción de los pasajeros. Además, el análisis de la distribución de aeropuertos puede servir para optimizar la infraestructura aeroportuaria en lugares donde sea necesario. El estudio también aborda una necesidad no cubierta en el mercado, ya que, a menudo, los usuarios solo comparan precios de vuelos sin tener en cuenta la puntualidad. Por ello, se propone proporcionar una alternativa donde la información sobre retrasos también sea un factor clave para elegir un vuelo, ayudando a los usuarios a tomar decisiones más informadas.
 
+## Introduction to the Project
 
+### Summary
+
+The Study of Domestic Flights in the U.S. project aims to analyze flight data within the United States, focusing primarily on delays, air traffic, and airport distribution. This study explores various factors affecting flight performance, including airlines, airports, and routes. It investigates how airlines manage delays, whether the number of flights an airline operates correlates with its performance, and how airport location and traffic impact flight punctuality. Additionally, an analysis of flights during holidays is conducted, and an interactive visualization is provided through a web application to help users access relevant flight information between selected airports. This study aims to provide valuable data to both travelers and airlines/airports to improve the flight experience and optimize operations.
+
+### Objectives
+
+1. *Airport Distribution and Air Traffic*: Study of the number of airports in each state in relation to population and area, as well as state-level air traffic.
+2. *Airline Analysis*: Evaluation of airline performance, including delay frequency, routes with the most traffic, and comparisons between companies based on various criteria.
+3. *Delays at Airports and Routes*: Study of airports as origins and destinations in relation to the frequency and magnitude of delays, as well as the creation of performance indexes.
+4. *Impact of Holidays on Traffic and Delays*: Comparison of flight and delay numbers on holidays versus regular days, analyzing weekly and monthly patterns.
+5. *Development of a Web Application*: An interactive platform for users to compare flight and delay information between selected airports.
+
+### Project Usefulness
+
+This study is valuable for travelers seeking detailed information on various factors that can affect their flight experience between U.S. states, such as delays and airport distribution. It can also be of interest to airlines and airports, as the findings may help them make decisions to enhance operations and passenger satisfaction. Furthermore, the analysis of airport distribution can assist in optimizing airport infrastructure where necessary. The study also addresses an unmet market need, as users often compare flight prices without considering punctuality. Thus, it proposes providing an alternative where delay information becomes a key factor in selecting a flight, enabling users to make more informed decisions.
 
 
 
